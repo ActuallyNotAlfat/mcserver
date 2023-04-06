@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 103.144.175.158
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680783398747
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680784214932
+  login: 1680780383121
+money: '0'
+last-account-name: The7Zee
+logoutlocation:
+  world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
+  world-name: world
+  x: 780.6985937990627
+  y: 110.0
+  z: 87.77459106246972
+  yaw: -105.30005645751953
+  pitch: 38.9999885559082
+lastlocation:
+  world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
+  world-name: world
+  x: 168.5
+  y: 119.0
+  z: -195.5
+  yaw: 103.6663818359375
+  pitch: 28.500102996826172
+homes:
+  home:
+    world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
+    world-name: world
+    x: 783.0479863658369
+    y: 100.0
+    z: 92.72072355950955
+    yaw: 87.482177734375
+    pitch: 16.351245880126953

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 175.158.50.150
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1680789277240
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1680789406738
+  login: 1680782886866
+money: '0'
+last-account-name: dvelix21
+logoutlocation:
+  world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
+  world-name: world
+  x: 144.22797004880326
+  y: 105.0
+  z: -183.43413567302395
+  yaw: -79.27668762207031
+  pitch: 12.8947172164917
+lastlocation:
+  world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
+  world-name: world
+  x: 157.3363026957877
+  y: 79.0
+  z: -103.78367025308229
+  yaw: 99.14413452148438
+  pitch: 17.79430389404297
+homes:
+  home:
+    world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
+    world-name: world
+    x: 157.58902870505415
+    y: 126.0
+    z: -209.39914754792972
+    yaw: -89.54852294921875
+    pitch: 84.32379913330078

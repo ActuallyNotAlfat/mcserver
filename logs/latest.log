@@ -1,0 +1,463 @@
+[09:55:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:55:55] [ServerMain/INFO]: Loaded 7 recipes
+[09:55:55] [ServerMain/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/shulker
+[09:55:56] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[09:55:56] [Server thread/WARN]: ****************************
+[09:55:56] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[09:55:56] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[09:55:56] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[09:55:56] [Server thread/WARN]: ****************************
+[09:55:56] [Server thread/INFO]: Loading properties
+[09:55:56] [Server thread/INFO]: This server is running Paper version git-Paper-492 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 497b919)
+[09:55:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:55:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:55:56] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[09:55:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[09:55:56] [Server thread/INFO]: Default game type: SURVIVAL
+[09:55:56] [Server thread/INFO]: Generating keypair
+[09:55:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:55:57] [Server thread/INFO]: Using epoll channel type
+[09:55:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:55:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[09:55:57] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.71
+[09:55:57] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[09:55:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.0-dev+52-c716fc8
+[09:55:57] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v4.8.0
+[09:55:57] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.4) has not yet been tested! Proceed with caution.
+[09:55:58] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
+  If this problem hasn't already been reported, please open a ticket
+  at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
+  Stack Trace:
+  java.lang.ExceptionInInitializerError
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.ProtocolInjector.<init>(ProtocolInjector.java:69)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterManager.<init>(PacketFilterManager.java:202)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterBuilder.buildInternal(PacketFilterBuilder.java:185)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterBuilder.build(PacketFilterBuilder.java:177)
+  	at ProtocolLib.jar//com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:203)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:36)
+  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+  	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.loadPlugins(CraftServer.java:423)
+  	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:273)
+  	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1104)
+  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+  	at java.base/java.lang.Thread.run(Thread.java:1589)
+  Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection: Unable to make protected java.lang.Package java.lang.ClassLoader.getPackage(java.lang.String) accessible: module java.base does not "opens java.lang" to unnamed module @5592b9d
+  	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$Initializable$Unavailable.defineClass(ClassInjector.java:471)
+  	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection.injectRaw(ClassInjector.java:283)
+  	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase.inject(ClassInjector.java:117)
+  	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassLoadingStrategy$Default$InjectionDispatcher.load(ClassLoadingStrategy.java:243)
+  	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassLoadingStrategy$Default.load(ClassLoadingStrategy.java:150)
+  	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.TypeResolutionStrategy$Passive.initialize(TypeResolutionStrategy.java:101)
+  	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.DynamicType$Default$Unloaded.load(DynamicType.java:6161)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.server.TemporaryPlayerFactory.setupProxyPlayerConstructor(TemporaryPlayerFactory.java:187)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.server.TemporaryPlayerFactory.<clinit>(TemporaryPlayerFactory.java:51)
+  	... 14 more
+  Dump:
+  Parameters: 
+    [NULL]
+  Sender:
+    com.comphenix.protocol.ProtocolLib@fb6eee6[
+      statistics=<null>
+      backgroundCompiler=<null>
+      packetTask=-1
+      tickCounter=0
+      unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@cb7279c
+      configExpectedMod=-1
+      updater=com.comphenix.protocol.updater.SpigotUpdater@344e2932
+      redirectHandler=<null>
+      commandProtocol=<null>
+      commandPacket=<null>
+      commandFilter=<null>
+      packetLogging=<null>
+      skipDisable=false
+      isEnabled=false
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@64662de0
+      server=CraftServer{serverName=Paper,serverVersion=git-Paper-492,minecraftVersion=1.19.4}
+      file=plugins/ProtocolLib.jar
+      description=org.bukkit.plugin.PluginDescriptionFile@232ef21e
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@232ef21e
+      dataFolder=plugins/ProtocolLib
+      classLoader=PluginClassLoader{plugin=ProtocolLib v4.8.0, pluginEnabled=false, url=plugins/ProtocolLib.jar}
+      naggable=true
+      newConfig=YamlConfiguration[path='', root='YamlConfiguration']
+      configFile=plugins/ProtocolLib/config.yml
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@556ed4ee
+    ]
+  Version:
+    ProtocolLib v4.8.0
+  Java Version:
+    19.0.2
+  Server:
+    git-Paper-492 (MC: 1.19.4)
+
+[09:55:58] [Server thread/INFO]: [SuperVanish] Loading server plugin SuperVanish v6.2.15
+[09:55:58] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.0-dev+52-c716fc8
+[09:55:58] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.10
+[09:55:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:55:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.71
+[09:55:59] [Server thread/INFO]:         __    
+[09:55:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.71
+[09:55:59] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[09:55:59] [Server thread/INFO]: 
+[09:55:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[09:55:59] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[09:56:00] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[09:56:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[09:56:00] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1733ms)
+[09:56:00] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:56:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:56:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:56:00] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:56:00] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[09:56:00] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[09:56:00] [Server thread/ERROR]: ******************************************************
+[09:56:00] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[09:56:00] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[09:56:00] [Server thread/ERROR]: ******************************************************
+[09:56:00] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.8.0
+[09:56:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:56:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:56:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:56:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:56:00] [Server thread/INFO]: Preparing level "world"
+[09:56:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:56:02] [Server thread/INFO]: Time elapsed: 285 ms
+[09:56:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:56:02] [Server thread/INFO]: Time elapsed: 76 ms
+[09:56:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:56:02] [Server thread/INFO]: Time elapsed: 83 ms
+[09:56:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+52-c716fc8
+[09:56:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:56:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:56:03] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[09:56:03] [Server thread/INFO]: [Essentials] Using locale en
+[09:56:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:56:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:56:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[09:56:03] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[09:56:03] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.15
+[09:56:03] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
+[09:56:03] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[09:56:03] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0-dev+52-c716fc8
+[09:56:03] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[09:56:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.10
+[09:56:03] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R3[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[09:56:04] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[09:56:04] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[09:56:04] [Server thread/INFO]: Running delayed init tasks
+[09:56:04] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[09:56:04] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[09:56:04] [Server thread/INFO]: Done (7.891s)! For help, type "help"
+[09:56:04] [Server thread/INFO]: Timings Reset
+[09:56:04] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:56:05] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.10[0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[09:56:05] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[09:56:19] [User Authenticator #0/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[09:56:19] [Server thread/INFO]: The7Zee joined the game
+[09:56:19] [Server thread/INFO]: The7Zee[/103.144.175.158:17827] logged in with entity id 207 at ([world]153.21762931945588, 78.0, -106.77315895447379)
+[09:56:27] [User Authenticator #0/INFO]: UUID of player rhnimam09 is eab14699-adbc-3cb9-afb7-7519cc94ea34
+[09:56:27] [Server thread/INFO]: rhnimam09 joined the game
+[09:56:27] [Server thread/INFO]: rhnimam09[/180.243.7.104:59974] logged in with entity id 358 at ([world]142.30000001192093, 108.0, -183.62967099860816)
+[09:56:27] [Server thread/INFO]: The7Zee issued server command: /sv
+[09:56:35] [Server thread/INFO]: The7Zee issued server command: /tp rhnimam09
+[09:57:03] [Server thread/INFO]: rhnimam09 has made the advancement [Acquire Hardware]
+[09:57:56] [Server thread/INFO]: The7Zee issued server command: /sv
+[09:57:58] [Server thread/INFO]: rhnimam09 has made the advancement [Isn't It Iron Pick]
+[09:58:26] [Server thread/INFO]: The7Zee issued server command: /fly
+[09:58:33] [Server thread/INFO]: The7Zee issued server command: /give * bread
+[09:59:00] [Server thread/INFO]: The7Zee issued server command: /seed
+[09:59:59] [User Authenticator #1/INFO]: UUID of player dvelix21 is a6596caa-3ca0-37ef-8f34-b8f6ed010ed4
+[09:59:59] [Server thread/INFO]: dvelix21 joined the game
+[09:59:59] [Server thread/INFO]: dvelix21[/175.158.50.150:3073] logged in with entity id 904 at ([world]158.31366716102687, 113.08639997415543, -186.5546820133439)
+[10:00:11] [Async Chat Thread - #0/INFO]: [Not Secure] <dvelix21> si kontol
+[10:00:35] [Server thread/INFO]: dvelix21 has made the advancement [Getting an Upgrade]
+[10:01:13] [Server thread/INFO]: dvelix21 issued server command: /sethome rumah
+[10:01:39] [Async Chat Thread - #2/INFO]: [Not Secure] <The7Zee> 3856696268436660843
+[10:01:50] [Async Chat Thread - #2/INFO]: [Not Secure] <rhnimam09> 7
+[10:02:13] [Server thread/INFO]: The7Zee issued server command: /invsee rhnimam09
+[10:03:28] [Server thread/INFO]: dvelix21 lost connection: Disconnected
+[10:03:28] [Server thread/INFO]: dvelix21 left the game
+[10:04:53] [Server thread/INFO]: rhnimam09 has made the advancement [Monster Hunter]
+[10:06:54] [User Authenticator #2/INFO]: UUID of player dvelix21 is a6596caa-3ca0-37ef-8f34-b8f6ed010ed4
+[10:06:54] [Server thread/INFO]: dvelix21 joined the game
+[10:06:54] [Server thread/INFO]: dvelix21[/175.158.50.150:3085] logged in with entity id 2825 at ([world]337.3747894845859, 63.0, -162.51397743629082)
+[10:08:34] [Server thread/INFO]: rhnimam09 fell from a high place
+[10:08:43] [Server thread/INFO]: The7Zee has made the advancement [Stone Age]
+[10:08:54] [Server thread/INFO]: rhnimam09 issued server command: /tpa dvelix21
+[10:09:01] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[10:09:09] [Server thread/INFO]: dvelix21 was slain by rhnimam09
+[10:09:19] [Server thread/INFO]: dvelix21 issued server command: /tpa rhnimam09
+[10:09:25] [Server thread/INFO]: rhnimam09 issued server command: /tpaccept
+[10:11:24] [Server thread/INFO]: The7Zee has made the advancement [Ice Bucket Challenge]
+[10:11:31] [Server thread/INFO]: dvelix21 issued server command: /tprumah
+[10:11:39] [Server thread/INFO]: dvelix21 issued server command: /home
+[10:12:07] [Server thread/INFO]: rhnimam09 issued server command: /tpa dvelix21
+[10:13:41] [Server thread/INFO]: dvelix21 discovered the floor was lava
+[10:13:48] [Server thread/INFO]: dvelix21 issued server command: /tpa rhnimam09
+[10:13:54] [Server thread/INFO]: rhnimam09 issued server command: /tpaccpt
+[10:13:59] [Server thread/INFO]: rhnimam09 issued server command: /tpaccept
+[10:14:08] [Server thread/INFO]: rhnimam09 was slain by dvelix21
+[10:14:14] [Server thread/INFO]: rhnimam09 issued server command: /tpaccept
+[10:14:22] [Server thread/INFO]: rhnimam09 issued server command: /tpa dvelix21
+[10:14:26] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[10:15:35] [Server thread/INFO]: The7Zee lost connection: Disconnected
+[10:15:35] [Server thread/INFO]: The7Zee left the game
+[10:15:54] [Server thread/INFO]: dvelix21 has made the advancement [Monster Hunter]
+[10:16:03] [Server thread/INFO]: dvelix21 has made the advancement [Acquire Hardware]
+[10:16:21] [Server thread/INFO]: dvelix21 issued server command: /sethome zspawn
+[10:17:29] [Server thread/INFO]: dvelix21 was slain by Zombie
+[10:18:04] [User Authenticator #3/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[10:18:04] [Server thread/INFO]: The7Zee joined the game
+[10:18:04] [Server thread/INFO]: The7Zee[/103.144.175.158:17985] logged in with entity id 11457 at ([world]-236.62888938874482, 63.0, -898.2224544827892)
+[10:18:35] [Server thread/INFO]: The7Zee issued server command: /tp dvelix21
+[10:18:40] [Server thread/INFO]: The7Zee issued server command: /tp rhnimam09
+[10:18:40] [Server thread/WARN]: The7Zee moved too quickly! 45.19193355802318,0.0,-243.07017184018213
+[10:19:29] [Server thread/INFO]: The7Zee issued server command: /tp dvelix21
+[10:22:05] [Server thread/INFO]: The7Zee issued server command: /tpaccept
+[10:22:06] [Server thread/INFO]: rhnimam09 issued server command: /tpa
+[10:22:13] [Server thread/INFO]: dvelix21 issued server command: /tpa The7Zee
+[10:22:15] [Server thread/INFO]: The7Zee issued server command: /tpaccept
+[10:22:21] [Server thread/INFO]: rhnimam09 issued server command: /tpa the7zee
+[10:22:23] [Server thread/INFO]: The7Zee issued server command: /tpaccept
+[10:25:39] [Server thread/INFO]: The7Zee has made the advancement [What a Deal!]
+[10:26:08] [Server thread/INFO]: dvelix21 issued server command: /home home
+[10:26:08] [Server thread/WARN]: dvelix21 moved too quickly! -585.8000000119209,51.0,-466.9946352439568
+[10:27:27] [Server thread/INFO]: dvelix21 issued server command: /home home
+[10:27:27] [Server thread/WARN]: dvelix21 moved too quickly! -0.7447602274400538,62.0,-7.701525357129043
+[10:28:15] [Server thread/INFO]: dvelix21 issued server command: /home home
+[10:28:22] [Server thread/INFO]: dvelix21 fell from a high place
+[10:28:53] [Server thread/INFO]: The7Zee issued server command: /smite rhnimam09
+[10:30:45] [Server thread/INFO]: dvelix21 has made the advancement [Sweet Dreams]
+[10:30:56] [Server thread/INFO]: The7Zee issued server command: /fly
+[10:31:01] [Server thread/INFO]: rhnimam09 tried to swim in lava
+[10:31:45] [Server thread/INFO]: dvelix21 was shot by Skeleton
+[10:32:14] [Server thread/INFO]: dvelix21 has made the advancement [Not Today, Thank You]
+[10:35:09] [Server thread/INFO]: The7Zee has made the advancement [Getting an Upgrade]
+[10:36:20] [Server thread/INFO]: dvelix21 has made the advancement [Isn't It Iron Pick]
+[10:38:18] [Server thread/INFO]: The7Zee issued server command: /sethome
+[10:38:21] [Server thread/INFO]: The7Zee issued server command: /tp dvelix21
+[10:39:03] [Server thread/INFO]: The7Zee issued server command: /home
+[10:44:36] [Server thread/INFO]: dvelix21 issued server command: /home home
+[10:47:26] [Server thread/INFO]: dvelix21 fell from a high place
+[10:49:08] [Async Chat Thread - #4/INFO]: [Not Secure] <rhnimam09> memek
+[10:49:14] [Server thread/INFO]: The7Zee issued server command: /home
+[10:49:51] [Async Chat Thread - #5/INFO]: [Not Secure] <rhnimam09> r
+[10:49:58] [Server thread/INFO]: The7Zee issued server command: /gmc
+[10:50:01] [Server thread/INFO]: dvelix21 issued server command: /home home
+[10:50:18] [Server thread/INFO]: The7Zee issued server command: /gms
+[10:50:53] [Server thread/INFO]: The7Zee issued server command: /fly
+[10:53:12] [Server thread/INFO]: The7Zee issued server command: /enchant efficiency 5
+[10:53:16] [Server thread/INFO]: The7Zee issued server command: /enchant fortune 3
+[10:53:21] [Server thread/INFO]: The7Zee issued server command: /enchant unbreaking 3
+[10:53:39] [Server thread/INFO]: dvelix21 fell from a high place
+[10:57:43] [Server thread/INFO]: The7Zee has made the advancement [Acquire Hardware]
+[10:57:44] [Server thread/INFO]: dvelix21 lost connection: Disconnected
+[10:57:45] [Server thread/INFO]: dvelix21 left the game
+[10:57:47] [Server thread/INFO]: The7Zee issued server command: /sv
+[10:57:48] [Server thread/INFO]: The7Zee lost connection: Disconnected
+[10:59:33] [Server thread/INFO]: rhnimam09 lost connection: Disconnected
+[10:59:33] [Server thread/INFO]: rhnimam09 left the game
+[11:10:13] [User Authenticator #4/INFO]: UUID of player dvelix21 is a6596caa-3ca0-37ef-8f34-b8f6ed010ed4
+[11:10:13] [Server thread/INFO]: dvelix21 joined the game
+[11:10:13] [Server thread/INFO]: dvelix21[/175.158.50.150:3307] logged in with entity id 30505 at ([world]166.88291074322603, 119.0, -183.1778557267697)
+[11:11:15] [Server thread/INFO]: dvelix21 was slain by Zombie
+[11:13:02] [Server thread/INFO]: dvelix21 has made the advancement [Diamonds!]
+[11:13:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-492 (MC: 1.19.4) ---
+[11:13:29] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[11:13:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:13:29] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[11:13:29] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[11:13:29] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[11:13:29] [Paper Watchdog Thread/ERROR]: Entity UUID: a6596caa-3ca0-37ef-8f34-b8f6ed010ed4
+[11:13:29] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (8.001011548722463, 68.0, -450.30000001192093)
+[11:13:29] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[11:13:29] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[7.701011536801534, 68.0, -450.60000002384186] -> [8.301011560643392, 69.79999995231628, -450.0]
+[11:13:29] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 177357
+[11:13:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:13:29] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[11:13:29] [Paper Watchdog Thread/ERROR]: 	PID: 31 | Suspended: false | Native: false | State: RUNNABLE
+[11:13:29] [Paper Watchdog Thread/ERROR]: 	Stack:
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.Mth.lerp2(Mth.java:499)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.Mth.lerp3(Mth.java:503)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator.compute(NoiseChunk.java:735)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:248)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.compute(DensityFunctions.java:867)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:295)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:272)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.selectCellYZ(NoiseChunk.java:269)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:177)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:714)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:100)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:154)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:92)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:84)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$8348/0x00000008025d90c0.get(Unknown Source)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:449)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:83)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:302)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:272)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:201)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1893)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:59)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4523/0x000000080192f370.apply(Unknown Source)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$7477/0x00000008024e8440.accept(Unknown Source)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:97)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:108)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:115)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:143)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:138)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:86)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:166)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1517)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1081)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:580)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1957)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7233/0x000000080247a798.run(Unknown Source)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1342)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1319)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1312)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1290)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1178)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4637/0x000000080195a5a8.run(Unknown Source)
+[11:13:29] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/java.lang.Thread.run(Thread.java:1589)
+[11:13:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:13:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[11:13:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:13:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10630ms or 212 ticks behind
+[11:13:29] [Server thread/INFO]: dvelix21 lost connection: Disconnected
+[11:13:29] [Server thread/INFO]: dvelix21 left the game
+[11:13:33] [User Authenticator #5/INFO]: UUID of player dvelix21 is a6596caa-3ca0-37ef-8f34-b8f6ed010ed4
+[11:13:33] [Server thread/INFO]: dvelix21 joined the game
+[11:13:33] [Server thread/INFO]: dvelix21[/175.158.50.150:3150] logged in with entity id 31478 at ([world]8.001011548722463, 68.0, -450.30000001192093)
+[11:21:31] [Server thread/INFO]: dvelix21 issued server command: /home home
+[11:25:14] [Server thread/INFO]: dvelix21 lost connection: Disconnected
+[11:25:14] [Server thread/INFO]: dvelix21 left the game
+[11:26:22] [User Authenticator #6/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[11:26:23] [Server thread/INFO]: The7Zee[/103.144.175.158:24710] logged in with entity id 35985 at ([world]777.3288181597234, 114.0, 88.23880656386163)
+[11:27:14] [Server thread/INFO]: The7Zee issued server command: /v
+[11:30:47] [Server thread/INFO]: The7Zee has made the advancement [Isn't It Iron Pick]
+[11:33:50] [Server thread/INFO]: The7Zee issued server command: /gmc
+[12:02:18] [Server thread/INFO]: The7Zee issued server command: /sv
+[12:06:22] [Server thread/INFO]: The7Zee issued server command: /sv
+[12:08:06] [User Authenticator #7/INFO]: UUID of player dvelix21 is a6596caa-3ca0-37ef-8f34-b8f6ed010ed4
+[12:08:06] [Server thread/INFO]: dvelix21 joined the game
+[12:08:06] [Server thread/INFO]: dvelix21[/175.158.50.150:8551] logged in with entity id 40422 at ([world]160.2193848607884, 123.9375, -198.40511524117798)
+[12:10:14] [Server thread/INFO]: The7Zee issued server command: /gms
+[12:10:33] [Server thread/INFO]: The7Zee issued server command: /sethome
+[12:10:36] [Server thread/INFO]: The7Zee issued server command: /home
+[12:12:08] [Server thread/INFO]: The7Zee fell from a high place
+[12:13:09] [Server thread/INFO]: The7Zee issued server command: /tpa dvelix21
+[12:13:13] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[12:13:39] [Server thread/INFO]: The7Zee fell from a high place
+[12:13:43] [Server thread/INFO]: The7Zee issued server command: /back
+[12:13:45] [Server thread/INFO]: dvelix21 fell from a high place
+[12:13:47] [Server thread/INFO]: The7Zee issued server command: /tpa dvelix21
+[12:13:49] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[12:14:24] [Server thread/INFO]: The7Zee fell from a high place
+[12:14:26] [Server thread/INFO]: dvelix21 fell from a high place
+[12:14:28] [Server thread/INFO]: The7Zee issued server command: /tp dvelix21
+[12:14:59] [Server thread/INFO]: dvelix21 fell from a high place
+[12:15:23] [Server thread/INFO]: The7Zee issued server command: /tp dvv
+[12:15:24] [Server thread/INFO]: The7Zee issued server command: /tp dv
+[12:16:35] [Server thread/INFO]: The7Zee issued server command: /back
+[12:16:38] [Server thread/INFO]: The7Zee issued server command: /home
+[12:17:06] [Server thread/INFO]: dvelix21 issued server command: /home
+[12:17:13] [Server thread/INFO]: dvelix21 issued server command: /home
+[12:17:13] [Server thread/WARN]: dvelix21 moved too quickly! 6.800000011920929,69.0,7.055902256574228
+[12:17:17] [Server thread/INFO]: dvelix21 fell from a high place
+[12:17:25] [Server thread/INFO]: dvelix21 issued server command: /tpa The7Zee
+[12:17:26] [Server thread/INFO]: The7Zee issued server command: /tpaccept
+[12:18:26] [Server thread/INFO]: dvelix21 fell from a high place
+[12:30:04] [Server thread/INFO]: The7Zee has made the advancement [Sweet Dreams]
+[12:30:17] [Server thread/INFO]: The7Zee issued server command: /sv
+[12:30:19] [Server thread/INFO]: The7Zee lost connection: Disconnected
+[12:32:01] [Server thread/INFO]: dvelix21 issued server command: /home
+[12:32:01] [Server thread/WARN]: dvelix21 moved too quickly! 3.791981677999871,60.0,-0.3185358234576654
+[12:41:58] [Server thread/INFO]: dvelix21 issued server command: /home
+[12:44:10] [Server thread/INFO]: dvelix21 issued server command: /home
+[12:51:12] [Server thread/INFO]: dvelix21 issued server command: /home
+[12:52:12] [Server thread/INFO]: dvelix21 issued server command: /delhome
+[12:52:17] [Server thread/INFO]: dvelix21 issued server command: /delhome home
+[12:53:57] [Server thread/INFO]: dvelix21 issued server command: /sethome
+[12:57:38] [Server thread/INFO]: dvelix21 fell from a high place
+[12:57:43] [Server thread/INFO]: dvelix21 issued server command: /home
+[13:03:31] [Server thread/INFO]: dvelix21 fell from a high place
+[13:03:40] [Server thread/INFO]: dvelix21 fell from a high place
+[13:14:05] [Server thread/INFO]: dvelix21 discovered the floor was lava
+[13:19:35] [User Authenticator #8/INFO]: UUID of player rhnimam09 is eab14699-adbc-3cb9-afb7-7519cc94ea34
+[13:19:35] [Server thread/INFO]: rhnimam09 joined the game
+[13:19:35] [Server thread/INFO]: rhnimam09[/180.243.7.104:60279] logged in with entity id 59654 at ([world]244.12984479280138, 63.0, -259.55823849172594)
+[13:21:41] [Server thread/INFO]: rhnimam09 has made the advancement [Sweet Dreams]
+[13:27:26] [Server thread/INFO]: rhnimam09 issued server command: /tpa dvelix21
+[13:27:31] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[13:27:34] [Server thread/INFO]: dvelix21 has made the advancement [Voluntary Exile]
+[13:27:46] [Server thread/INFO]: dvelix21 issued server command: /home
+[13:28:06] [Server thread/INFO]: dvelix21 issued server command: /tpa rhnimam09
+[13:28:15] [Server thread/INFO]: rhnimam09 issued server command: /tpaccept
+[13:28:15] [Server thread/WARN]: dvelix21 moved too quickly! -8.952803417013456,-17.0,21.42376409057252
+[13:32:50] [Server thread/INFO]: rhnimam09 issued server command: /tpa dvelix21
+[13:32:51] [Server thread/INFO]: rhnimam09 went off with a bang
+[13:32:52] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[13:33:04] [Server thread/INFO]: rhnimam09 issued server command: /tpa dvelix21
+[13:33:06] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[13:33:28] [Server thread/INFO]: rhnimam09 fell from a high place
+[13:34:02] [Server thread/INFO]: dvelix21 fell from a high place
+[13:34:11] [Server thread/INFO]: rhnimam09 issued server command: /tpa dvelix21
+[13:34:12] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[13:34:12] [Server thread/WARN]: rhnimam09 moved too quickly! 165.67388909152186,48.0,-203.7489129070158
+[13:34:23] [Server thread/INFO]: rhnimam09 fell from a high place
+[13:34:29] [Server thread/INFO]: rhnimam09 issued server command: /tpa dvelix21
+[13:34:31] [Server thread/INFO]: dvelix21 issued server command: /tpaccept
+[13:34:31] [Server thread/WARN]: rhnimam09 moved too quickly! 149.0,53.0,-209.0
+[13:34:43] [Server thread/INFO]: dvelix21 issued server command: /home
+[13:43:22] [Server thread/INFO]: dvelix21 fell from a high place
+[13:49:21] [Server thread/INFO]: dvelix21 fell from a high place
+[13:51:11] [Server thread/INFO]: dvelix21 issued server command: /home
+[13:51:11] [Server thread/WARN]: dvelix21 moved too quickly! -164.53517121864695,79.56879331460216,272.5837664663251
+[13:53:21] [Server thread/INFO]: dvelix21 drowned
+[13:54:01] [Server thread/INFO]: dvelix21 has made the advancement [Hot Stuff]
+[13:54:37] [Server thread/INFO]: dvelix21 issued server command: /home
+[13:56:46] [Server thread/INFO]: dvelix21 lost connection: Disconnected
+[13:56:46] [Server thread/INFO]: dvelix21 left the game
+[14:16:53] [Server thread/INFO]: rhnimam09 lost connection: Disconnected
+[14:16:53] [Server thread/INFO]: rhnimam09 left the game
+[14:41:34] [User Authenticator #9/INFO]: UUID of player rhnimam09 is eab14699-adbc-3cb9-afb7-7519cc94ea34
+[14:41:35] [Server thread/INFO]: rhnimam09 joined the game
+[14:41:35] [Server thread/INFO]: rhnimam09[/180.243.7.104:60466] logged in with entity id 74481 at ([world]244.6070544789582, 63.0, -256.4336179576505)
+[15:10:57] [Server thread/INFO]: rhnimam09 lost connection: Disconnected
+[15:10:57] [Server thread/INFO]: rhnimam09 left the game
