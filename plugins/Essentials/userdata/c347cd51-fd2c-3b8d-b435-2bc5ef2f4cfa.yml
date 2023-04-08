@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1680783398747
+  lastteleport: 1680868804105
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1680784214932
-  login: 1680780383121
+  logout: 1680881741697
+  login: 1680928587592
 money: '0'
 last-account-name: The7Zee
 logoutlocation:
   world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
   world-name: world
-  x: 780.6985937990627
-  y: 110.0
-  z: 87.77459106246972
-  yaw: -105.30005645751953
-  pitch: 38.9999885559082
+  x: 782.389643300634
+  y: 102.0
+  z: 73.88412011566861
+  yaw: 17.437509536743164
+  pitch: 28.501340866088867
 lastlocation:
   world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
   world-name: world
-  x: 168.5
-  y: 119.0
-  z: -195.5
-  yaw: 103.6663818359375
-  pitch: 28.500102996826172
+  x: 781.5629191359783
+  y: 2.1612724790177364
+  z: 145.69724759093765
+  yaw: -53.0223388671875
+  pitch: 14.250805854797363
 homes:
   home:
     world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
