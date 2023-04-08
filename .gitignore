@@ -1,1 +1,7 @@
+cache/
+libraries/
+logs/
+versions/
+.console_history
+node_modules/
 server.jar
