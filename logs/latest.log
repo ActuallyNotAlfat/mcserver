@@ -2,3 +2,28 @@
 [05:03:51] [Craft Scheduler Thread - 2728 - Vault/INFO]: [Vault] No new version available
 [11:03:51] [Craft Scheduler Thread - 3113 - Vault/INFO]: [Vault] Checking for Updates ... 
 [11:03:51] [Craft Scheduler Thread - 3113 - Vault/INFO]: [Vault] No new version available
+[14:46:43] [User Authenticator #9/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[14:46:43] [Server thread/INFO]: The7Zee joined the game
+[14:46:43] [Server thread/INFO]: The7Zee[/103.144.175.158:5409] logged in with entity id 62004 at ([world]781.3918010485847, 102.0, 82.50445359016149)
+[14:47:14] [Server thread/INFO]: The7Zee issued server command: /gmc
+[15:05:36] [Server thread/INFO]: The7Zee issued server command: /fill 793 101 65 809 101 84 stone replace minecraft:air
+[15:05:36] [Server thread/INFO]: [The7Zee: Successfully filled 48 blocks]
+[15:05:51] [Server thread/INFO]: The7Zee issued server command: /fill 793 101 65 809 101 84 grass replace stone
+[15:05:51] [Server thread/INFO]: [The7Zee: Successfully filled 172 blocks]
+[15:05:59] [Server thread/INFO]: The7Zee issued server command: /fill 793 101 65 809 101 84 grass_block replace air
+[15:05:59] [Server thread/INFO]: [The7Zee: Successfully filled 56 blocks]
+[15:06:17] [Server thread/INFO]: The7Zee issued server command: /fill 793 101 65 809 101 84 grass_block replace air
+[15:06:17] [Server thread/INFO]: [The7Zee: Successfully filled 108 blocks]
+[15:11:41] [Server thread/INFO]: The7Zee issued server command: /fill 814 101 84 809 101 65 water replace air
+[15:11:41] [Server thread/INFO]: [The7Zee: Successfully filled 50 blocks]
+[15:19:15] [Server thread/INFO]: The7Zee issued server command: /gms
+[15:20:41] [Server thread/INFO]: The7Zee issued server command: /enchant unbreaking 3
+[15:20:45] [Server thread/INFO]: The7Zee issued server command: /enchant efficiency 5
+[15:20:54] [Server thread/INFO]: The7Zee issued server command: /enchant fortune 3
+[15:22:07] [Server thread/INFO]: The7Zee has made the advancement [A Seedy Place]
+[15:22:41] [Server thread/INFO]: The7Zee issued server command: /give The7Zee lanter
+[15:22:42] [Server thread/INFO]: The7Zee issued server command: /give The7Zee lanter
+[15:22:44] [Server thread/INFO]: The7Zee issued server command: /give The7Zee lantern
+[15:27:40] [Server thread/INFO]: The7Zee issued server command: /give The7Zee sugar_cane
+[15:28:22] [Server thread/INFO]: The7Zee lost connection: Disconnected
+[15:28:22] [Server thread/INFO]: The7Zee left the game
