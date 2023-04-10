@@ -1,2 +1,44 @@
 [05:03:51] [Craft Scheduler Thread - 4270 - Vault/INFO]: [Vault] Checking for Updates ... 
 [05:03:51] [Craft Scheduler Thread - 4270 - Vault/INFO]: [Vault] No new version available
+[09:14:25] [User Authenticator #10/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[09:14:25] [Server thread/INFO]: The7Zee joined the game
+[09:14:25] [Server thread/INFO]: The7Zee[/103.144.175.158:16322] logged in with entity id 66093 at ([world]789.4653606447747, 102.0, 75.23183858165862)
+[09:20:22] [Server thread/INFO]: The7Zee issued server command: /give The7Zee lectern 1
+[09:22:42] [Server thread/INFO]: The7Zee issued server command: /give The7Zee paper
+[09:22:59] [Server thread/INFO]: The7Zee issued server command: /give The7Zee emerald
+[09:23:48] [User Authenticator #11/INFO]: UUID of player rhnimam09 is eab14699-adbc-3cb9-afb7-7519cc94ea34
+[09:23:48] [Server thread/INFO]: rhnimam09 joined the game
+[09:23:48] [Server thread/INFO]: rhnimam09[/110.136.59.83:58340] logged in with entity id 67886 at ([world]225.37181512938653, 67.0, -238.32511114363524)
+[09:26:20] [User Authenticator #12/INFO]: UUID of player dvelix21 is a6596caa-3ca0-37ef-8f34-b8f6ed010ed4
+[09:26:20] [Server thread/INFO]: dvelix21 joined the game
+[09:26:20] [Server thread/INFO]: dvelix21[/175.158.50.150:4074] logged in with entity id 68637 at ([world_the_end]-926.4197395768936, 59.0, -1886.062489398971)
+[09:26:53] [Server thread/INFO]: dvelix21 issued server command: /home home
+[09:27:24] [Server thread/INFO]: dvelix21 issued server command: /home zspawn
+[09:29:37] [Server thread/INFO]: dvelix21 issued server command: /tpa rhnimam09
+[09:29:44] [Server thread/INFO]: rhnimam09 issued server command: /tpaccept
+[09:31:32] [Server thread/INFO]: The7Zee issued server command: /effect give The7Zee minecraft:hero_of_the_village 100 255
+[09:31:32] [Server thread/INFO]: [The7Zee: Applied effect Hero of the Village to The7Zee]
+[09:31:48] [Server thread/INFO]: The7Zee issued server command: /effect clear @p
+[09:31:48] [Server thread/INFO]: [The7Zee: Removed every effect from The7Zee]
+[09:31:58] [Server thread/INFO]: The7Zee issued server command: /give The7Zee elytra 1
+[09:31:59] [Server thread/INFO]: dvelix21 lost connection: Disconnected
+[09:31:59] [Server thread/INFO]: dvelix21 left the game
+[09:32:10] [Server thread/INFO]: The7Zee issued server command: /give The7Zee dragon_head 1
+[09:34:39] [Server thread/INFO]: rhnimam09 has reached the goal [Sky's the Limit]
+[09:34:56] [Server thread/WARN]: The7Zee moved too quickly! -3.0846898402484726,-64.0,-0.8833887471508461
+[09:34:56] [Server thread/WARN]: The7Zee moved too quickly! -3.0846898402484726,-64.0,-0.8833887471508461
+[09:36:57] [Server thread/WARN]: The7Zee was kicked due to keepalive timeout!
+[09:36:57] [Server thread/INFO]: The7Zee lost connection: Timed out
+[09:36:57] [Server thread/INFO]: The7Zee left the game
+[09:37:11] [User Authenticator #13/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[09:37:11] [Server thread/INFO]: The7Zee joined the game
+[09:37:11] [Server thread/INFO]: The7Zee[/103.144.175.158:16534] logged in with entity id 72087 at ([world]144.97821754814845, 106.94020491032174, -183.05292208263216)
+[09:41:54] [Server thread/INFO]: rhnimam09 lost connection: Disconnected
+[09:41:54] [Server thread/INFO]: rhnimam09 left the game
+[09:42:38] [Server thread/INFO]: The7Zee issued server command: /home
+[09:51:52] [Server thread/INFO]: The7Zee issued server command: /gmc
+[09:52:09] [Server thread/INFO]: The7Zee issued server command: /gms
+[09:59:53] [Server thread/INFO]: The7Zee lost connection: Disconnected
+[09:59:53] [Server thread/INFO]: The7Zee left the game
+[11:03:51] [Craft Scheduler Thread - 4668 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:03:51] [Craft Scheduler Thread - 4668 - Vault/INFO]: [Vault] No new version available

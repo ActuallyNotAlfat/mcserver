@@ -903,7 +903,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chorus_fruit": "2023-04-08 06:38:50 +0000",
-      "bread": "2023-04-06 09:58:36 +0000"
+      "apple": "2023-04-10 09:38:32 +0000",
+      "bread": "2023-04-06 09:58:36 +0000",
+      "carrot": "2023-04-10 09:42:53 +0000"
     },
     "done": false
   },
@@ -3674,15 +3676,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glass": {
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
-      "has_smelts_to_glass": "2023-04-09 15:10:24 +0000"
+      "has_log": "2023-04-09 15:02:39 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
       "has_stone_slab": "2023-04-09 15:03:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2023-04-09 15:10:24 +0000"
     },
     "done": true
   },
@@ -3698,9 +3706,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
     "criteria": {
-      "has_log": "2023-04-09 15:02:39 +0000"
+      "has_iron_ore": "2023-04-10 09:44:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2023-04-10 09:44:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-04-10 09:43:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-04-10 09:43:41 +0000"
     },
     "done": true
   },
