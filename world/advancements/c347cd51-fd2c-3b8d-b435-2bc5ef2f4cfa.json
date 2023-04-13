@@ -3498,7 +3498,8 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:sheep": "2023-04-08 06:10:41 +0000",
-      "minecraft:cow": "2023-04-08 06:10:43 +0000"
+      "minecraft:cow": "2023-04-08 06:10:43 +0000",
+      "minecraft:chicken": "2023-04-13 11:30:01 +0000"
     },
     "done": false
   },
@@ -3736,81 +3737,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/melon_seeds": {
-    "criteria": {
-      "has_melon": "2023-04-11 09:36:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_slab": {
-    "criteria": {
-      "has_planks": "2023-04-11 09:52:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/detector_rail": {
-    "criteria": {
-      "has_rail": "2023-04-11 09:52:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_door": {
-    "criteria": {
-      "has_planks": "2023-04-11 09:52:50 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2023-04-11 09:20:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
+  "minecraft:recipes/food/cooked_beef": {
     "criteria": {
-      "has_melon": "2023-04-11 09:36:59 +0000"
+      "has_beef": "2023-04-11 09:20:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
-      "has_planks": "2023-04-11 09:52:50 +0000"
+      "has_beef": "2023-04-11 09:20:17 +0000"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2023-04-11 09:20:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_wood": {
-    "criteria": {
-      "has_log": "2023-04-11 09:42:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_planks": {
-    "criteria": {
-      "has_logs": "2023-04-11 09:42:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2023-04-11 09:52:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/melon": {
-    "criteria": {
-      "has_melon": "2023-04-11 09:36:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_button": {
-    "criteria": {
-      "has_planks": "2023-04-11 09:52:50 +0000"
     },
     "done": true
   },
@@ -3826,15 +3773,75 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2023-04-11 09:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-04-11 09:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-04-11 09:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2023-04-11 09:42:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2023-04-11 09:42:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
       "has_bamboo": "2023-04-11 09:44:20 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/activator_rail": {
+  "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
-      "has_rail": "2023-04-11 09:52:59 +0000"
+      "has_bamboo": "2023-04-11 09:44:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2023-04-11 09:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2023-04-11 09:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-04-11 09:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-04-11 09:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2023-04-11 09:52:50 +0000"
     },
     "done": true
   },
@@ -3850,39 +3857,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/scaffolding": {
-    "criteria": {
-      "has_bamboo": "2023-04-11 09:44:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2023-04-11 09:52:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef": {
+  "minecraft:recipes/decorations/dark_oak_fence": {
     "criteria": {
-      "has_beef": "2023-04-11 09:20:17 +0000"
+      "has_planks": "2023-04-11 09:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2023-04-11 09:52:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2023-04-11 09:52:59 +0000"
     },
     "done": true
   },
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2023-04-11 09:52:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
-    "criteria": {
-      "has_beef": "2023-04-11 09:20:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_fence": {
-    "criteria": {
-      "has_planks": "2023-04-11 09:52:50 +0000"
     },
     "done": true
   },

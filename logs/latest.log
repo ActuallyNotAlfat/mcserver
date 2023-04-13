@@ -1,2 +1,63 @@
 [03:06:25] [Craft Scheduler Thread - 2687 - Vault/INFO]: [Vault] Checking for Updates ... 
 [03:06:25] [Craft Scheduler Thread - 2687 - Vault/INFO]: [Vault] No new version available
+[09:06:25] [Craft Scheduler Thread - 3070 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:06:25] [Craft Scheduler Thread - 3070 - Vault/INFO]: [Vault] No new version available
+[10:52:09] [User Authenticator #1/INFO]: UUID of player dvelix21 is a6596caa-3ca0-37ef-8f34-b8f6ed010ed4
+[10:52:09] [Server thread/INFO]: dvelix21 joined the game
+[10:52:09] [Server thread/INFO]: dvelix21[/101.128.125.23:36031] logged in with entity id 15940 at ([world]163.01374079717635, 93.0, -174.4290864704932)
+[10:58:53] [Server thread/INFO]: dvelix21 issued server command: /home alpat
+[11:03:21] [User Authenticator #2/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[11:03:21] [Server thread/INFO]: The7Zee joined the game
+[11:03:21] [Server thread/INFO]: The7Zee[/103.144.175.158:6906] logged in with entity id 17476 at ([world]780.1970788291738, 102.0, 76.6461565283786)
+[11:03:41] [Async Chat Thread - #1/INFO]: [Not Secure] <The7Zee> di DC atu
+[11:06:12] [Server thread/INFO]: The7Zee issued server command: /invsee dvelix21
+[11:08:06] [Server thread/INFO]: The7Zee issued server command: /effect give @p minecraft:hero_of_the_village 100 255 true
+[11:08:06] [Server thread/INFO]: [The7Zee: Applied effect Hero of the Village to The7Zee]
+[11:09:57] [Server thread/INFO]: The7Zee issued server command: /trigger mpSleep add 1
+[11:09:57] [Server thread/INFO]: [The7Zee: Triggered [Multiplayer Sleep] (added 1 to value)]
+[11:10:13] [Server thread/INFO]: The7Zee issued server command: /trigger mpSleep set 3
+[11:10:13] [Server thread/INFO]: [The7Zee: Triggered [Multiplayer Sleep] (set value to 3)]
+[11:10:27] [Server thread/INFO]: The7Zee issued server command: /trigger mpSleep set 8
+[11:10:27] [Server thread/INFO]: [The7Zee: Triggered [Multiplayer Sleep] (set value to 8)]
+[11:10:29] [Server thread/INFO]: The7Zee issued server command: /trigger mpSleep set 7
+[11:10:29] [Server thread/INFO]: [The7Zee: Triggered [Multiplayer Sleep] (set value to 7)]
+[11:10:44] [Server thread/INFO]: The7Zee issued server command: /trigger mpSleep set 2
+[11:10:44] [Server thread/INFO]: [The7Zee: Triggered [Multiplayer Sleep] (set value to 2)]
+[11:11:11] [Server thread/INFO]: The7Zee issued server command: /function multiplayer_sleep:announce_asleep
+[11:11:11] [Server thread/INFO]: [The7Zee: Executed 3 command(s) from function 'multiplayer_sleep:announce_asleep']
+[11:11:23] [Async Chat Thread - #2/INFO]: [Not Secure] <dvelix21> pat?
+[11:11:25] [Async Chat Thread - #2/INFO]: [Not Secure] <dvelix21> dc?
+[11:11:28] [Async Chat Thread - #3/INFO]: [Not Secure] <The7Zee> IYE
+[11:11:30] [Async Chat Thread - #2/INFO]: [Not Secure] <The7Zee> COK
+[11:11:32] [Async Chat Thread - #3/INFO]: [Not Secure] <The7Zee> DARI TADI
+[11:11:35] [Async Chat Thread - #2/INFO]: [Not Secure] <dvelix21> otw
+[11:11:37] [Async Chat Thread - #3/INFO]: [Not Secure] <The7Zee> >:(
+[11:11:41] [Async Chat Thread - #2/INFO]: [Not Secure] <dvelix21> gw abis buka puasa anjay
+[11:11:46] [Async Chat Thread - #3/INFO]: [Not Secure] <dvelix21> otw dc
+[11:11:52] [Async Chat Thread - #2/INFO]: [Not Secure] <dvelix21> ajg kaget
+[11:11:59] [Async Chat Thread - #3/INFO]: [Not Secure] <The7Zee> BLock
+[11:12:14] [Async Chat Thread - #2/INFO]: [Not Secure] <dvelix21> kukira lu ga di belakang gw anjer
+[11:15:12] [Server thread/INFO]: The7Zee lost connection: Disconnected
+[11:15:12] [Server thread/INFO]: The7Zee left the game
+[11:15:19] [User Authenticator #3/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[11:15:19] [Server thread/INFO]: The7Zee joined the game
+[11:15:19] [Server thread/INFO]: The7Zee[/103.144.175.158:64130] logged in with entity id 18806 at ([world]776.461368501023, 114.0, 85.25128138827628)
+[11:15:43] [Server thread/INFO]: The7Zee lost connection: Disconnected
+[11:15:44] [Server thread/INFO]: The7Zee left the game
+[11:18:31] [User Authenticator #4/INFO]: UUID of player The7Zee is c347cd51-fd2c-3b8d-b435-2bc5ef2f4cfa
+[11:18:31] [Server thread/INFO]: The7Zee joined the game
+[11:18:31] [Server thread/INFO]: The7Zee[/103.144.175.158:7127] logged in with entity id 19108 at ([world]776.461368501023, 114.0, 85.25128138827628)
+[11:18:54] [Server thread/INFO]: dvelix21 issued server command: /home home
+[11:20:20] [User Authenticator #5/INFO]: UUID of player rhnimam09 is eab14699-adbc-3cb9-afb7-7519cc94ea34
+[11:20:20] [Server thread/INFO]: rhnimam09 joined the game
+[11:20:20] [Server thread/INFO]: rhnimam09[/180.243.5.3:54829] logged in with entity id 19476 at ([world]224.22151275706176, 63.0, -258.5211252686505)
+[11:20:46] [Server thread/WARN]: rhnimam09 moved too quickly! 11.976812608418413,0.0,0.20504325741075036
+[11:24:16] [Server thread/INFO]: dvelix21 lost connection: Disconnected
+[11:24:16] [Server thread/INFO]: dvelix21 left the game
+[11:35:18] [Server thread/INFO]: The7Zee issued server command: /offlinetp The7Zee
+[11:35:26] [Server thread/INFO]: The7Zee issued server command: /offlinetp dv
+[11:35:29] [Server thread/INFO]: The7Zee issued server command: /sv
+[11:35:32] [Server thread/INFO]: The7Zee issued server command: /tp rhnimam09
+[11:36:17] [Server thread/INFO]: The7Zee lost connection: Disconnected
+[11:52:07] [Server thread/INFO]: rhnimam09 lost connection: Disconnected
+[11:52:07] [Server thread/INFO]: rhnimam09 left the game
