@@ -1933,6 +1933,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2023-04-08 05:06:54 +0000",
+      "minecraft:pillager": "2023-04-13 15:45:54 +0000",
       "minecraft:skeleton": "2023-04-06 16:12:40 +0000",
       "minecraft:ghast": "2023-04-08 04:49:25 +0000",
       "minecraft:magma_cube": "2023-04-08 04:50:20 +0000",
@@ -3884,6 +3885,36 @@
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2023-04-11 09:52:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2023-04-13 15:45:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2023-04-13 15:41:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2023-04-13 15:45:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-04-13 15:41:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-04-13 15:41:28 +0000"
     },
     "done": true
   },
