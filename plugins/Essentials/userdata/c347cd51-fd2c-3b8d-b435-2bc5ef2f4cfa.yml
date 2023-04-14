@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1681413092253
-  login: 1681410080068
+  logout: 1681462215856
+  login: 1681460252481
 money: '0'
 last-account-name: The7Zee
 logoutlocation:
   world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
   world-name: world
-  x: 788.27940087388
+  x: 773.429725664288
   y: 102.0
-  z: 80.91546106105159
-  yaw: 8.02178955078125
-  pitch: 36.45038986206055
+  z: 76.36626060504132
+  yaw: -48.074462890625
+  pitch: 22.50065803527832
 lastlocation:
   world: 9a1a0f89-647a-486f-b5bb-46b01bf7ca9f
   world-name: world
