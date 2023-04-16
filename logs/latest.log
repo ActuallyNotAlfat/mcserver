@@ -4,3 +4,33 @@
 [06:20:46] [Craft Scheduler Thread - 3838 - Vault/INFO]: [Vault] Checking for Updates ... 
 [06:20:46] [Craft Scheduler Thread - 3838 - Vault/INFO]: [Vault] No new version available
 [10:40:46] [Craft Scheduler Thread - 4113 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[12:20:46] [Craft Scheduler Thread - 4221 - Vault/INFO]: [Vault] Checking for Updates ... 
+[12:20:46] [Craft Scheduler Thread - 4221 - Vault/INFO]: [Vault] No new version available
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: Exception in thread "DefaultDispatcher-worker-1" java.net.UnknownHostException: ustats.plasmovoice.com
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:560)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:666)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:378)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1241)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1127)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1429)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1400)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:220)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.ustats.UStats.tick(UStats.kt:85)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.ustats.UStats.access$tick(UStats.kt:17)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.ustats.UStats$startJob$1.invokeSuspend(UStats.kt:59)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[12:34:56] [DefaultDispatcher-worker-1/WARN]: 	Suppressed: su.plo.voice.libs.kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@566227df, Dispatchers.Default]
