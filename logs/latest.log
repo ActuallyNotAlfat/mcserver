@@ -34,3 +34,5 @@
 [12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
 [12:34:56] [DefaultDispatcher-worker-1/WARN]: 	at PlasmoVoice-Paper-2.0.3.jar//su.plo.voice.libs.kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
 [12:34:56] [DefaultDispatcher-worker-1/WARN]: 	Suppressed: su.plo.voice.libs.kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@566227df, Dispatchers.Default]
+[18:20:46] [Craft Scheduler Thread - 4602 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:20:46] [Craft Scheduler Thread - 4602 - Vault/INFO]: [Vault] No new version available
