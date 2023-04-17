@@ -3,3 +3,7 @@
 [06:20:46] [Craft Scheduler Thread - 5368 - Vault/INFO]: [Vault] Checking for Updates ... 
 [06:20:46] [Craft Scheduler Thread - 5368 - Vault/INFO]: [Vault] No new version available
 [07:01:06] [Craft Scheduler Thread - 5410 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: Connect timed out
+[12:20:46] [Craft Scheduler Thread - 5749 - Vault/INFO]: [Vault] Checking for Updates ... 
+[12:20:47] [Craft Scheduler Thread - 5749 - Vault/INFO]: [Vault] No new version available
+[13:31:48] [Craft Scheduler Thread - 5825 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
