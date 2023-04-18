@@ -13,3 +13,10 @@
 [12:20:46] [Craft Scheduler Thread - 7279 - Vault/INFO]: [Vault] No new version available
 [12:40:46] [Craft Scheduler Thread - 7300 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
 [13:20:46] [Craft Scheduler Thread - 7342 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[17:20:46] [Craft Scheduler Thread - 7596 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[17:40:46] [Craft Scheduler Thread - 7617 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[18:20:46] [Craft Scheduler Thread - 7660 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:20:46] [Craft Scheduler Thread - 7660 - Vault/INFO]: [Vault] There was an issue attempting to check for the latest version.
+[18:20:46] [Craft Scheduler Thread - 7660 - Vault/INFO]: [Vault] No new version available
+[19:00:46] [Craft Scheduler Thread - 7704 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[19:20:46] [Craft Scheduler Thread - 7725 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
