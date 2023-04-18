@@ -1,15 +1,4 @@
-[00:20:46] [Craft Scheduler Thread - 4985 - Vault/INFO]: [Vault] Checking for Updates ... 
-[00:20:51] [Craft Scheduler Thread - 4985 - Vault/INFO]: [Vault] No new version available
-[06:20:46] [Craft Scheduler Thread - 5368 - Vault/INFO]: [Vault] Checking for Updates ... 
-[06:20:46] [Craft Scheduler Thread - 5368 - Vault/INFO]: [Vault] No new version available
-[07:01:06] [Craft Scheduler Thread - 5410 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: Connect timed out
-[12:20:46] [Craft Scheduler Thread - 5749 - Vault/INFO]: [Vault] Checking for Updates ... 
-[12:20:47] [Craft Scheduler Thread - 5749 - Vault/INFO]: [Vault] No new version available
-[13:31:48] [Craft Scheduler Thread - 5825 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
- If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
-[16:40:46] [Craft Scheduler Thread - 6024 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[17:00:46] [Craft Scheduler Thread - 6045 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[18:20:46] [Craft Scheduler Thread - 6132 - Vault/INFO]: [Vault] Checking for Updates ... 
-[18:20:46] [Craft Scheduler Thread - 6132 - Vault/INFO]: [Vault] No new version available
-[21:00:46] [Craft Scheduler Thread - 6302 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[21:20:46] [Craft Scheduler Thread - 6323 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[00:20:46] [Craft Scheduler Thread - 6513 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:20:47] [Craft Scheduler Thread - 6513 - Vault/INFO]: [Vault] No new version available
+[03:00:46] [Craft Scheduler Thread - 6683 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[03:40:46] [Craft Scheduler Thread - 6725 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
