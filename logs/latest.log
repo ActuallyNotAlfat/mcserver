@@ -1,25 +1,4 @@
-[00:20:46] [Craft Scheduler Thread - 6513 - Vault/INFO]: [Vault] Checking for Updates ... 
-[00:20:47] [Craft Scheduler Thread - 6513 - Vault/INFO]: [Vault] No new version available
-[03:00:46] [Craft Scheduler Thread - 6683 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[03:40:46] [Craft Scheduler Thread - 6725 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[04:03:48] [Craft Scheduler Thread - 6751 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
- If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
-[06:20:46] [Craft Scheduler Thread - 6896 - Vault/INFO]: [Vault] Checking for Updates ... 
-[06:20:54] [Craft Scheduler Thread - 6896 - Vault/INFO]: [Vault] No new version available
-[07:20:46] [Craft Scheduler Thread - 6959 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[08:20:46] [Craft Scheduler Thread - 7024 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[11:00:46] [Craft Scheduler Thread - 7192 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[12:20:46] [Craft Scheduler Thread - 7279 - Vault/INFO]: [Vault] Checking for Updates ... 
-[12:20:46] [Craft Scheduler Thread - 7279 - Vault/INFO]: [Vault] No new version available
-[12:40:46] [Craft Scheduler Thread - 7300 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[13:20:46] [Craft Scheduler Thread - 7342 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[17:20:46] [Craft Scheduler Thread - 7596 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[17:40:46] [Craft Scheduler Thread - 7617 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[18:20:46] [Craft Scheduler Thread - 7660 - Vault/INFO]: [Vault] Checking for Updates ... 
-[18:20:46] [Craft Scheduler Thread - 7660 - Vault/INFO]: [Vault] There was an issue attempting to check for the latest version.
-[18:20:46] [Craft Scheduler Thread - 7660 - Vault/INFO]: [Vault] No new version available
-[19:00:46] [Craft Scheduler Thread - 7704 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[19:20:46] [Craft Scheduler Thread - 7725 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[21:20:46] [Craft Scheduler Thread - 7851 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[22:00:46] [Craft Scheduler Thread - 7893 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[23:00:46] [Craft Scheduler Thread - 7958 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[00:20:46] [Craft Scheduler Thread - 8043 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:20:46] [Craft Scheduler Thread - 8043 - Vault/INFO]: [Vault] No new version available
+[02:20:46] [Craft Scheduler Thread - 8171 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[02:41:06] [Craft Scheduler Thread - 8192 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: Connect timed out
