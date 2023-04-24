@@ -1,17 +1,4 @@
-[00:20:46] [Craft Scheduler Thread - 14161 - Vault/INFO]: [Vault] Checking for Updates ... 
-[00:20:46] [Craft Scheduler Thread - 14161 - Vault/INFO]: [Vault] No new version available
-[02:40:46] [Craft Scheduler Thread - 14308 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[05:20:46] [Craft Scheduler Thread - 14478 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[06:20:46] [Craft Scheduler Thread - 14542 - Vault/INFO]: [Vault] Checking for Updates ... 
-[06:20:46] [Craft Scheduler Thread - 14542 - Vault/INFO]: [Vault] No new version available
-[07:20:46] [Craft Scheduler Thread - 14605 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[10:00:46] [Craft Scheduler Thread - 14775 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[12:20:46] [Craft Scheduler Thread - 14924 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[12:20:46] [Craft Scheduler Thread - 14925 - Vault/INFO]: [Vault] Checking for Updates ... 
-[12:20:49] [Craft Scheduler Thread - 14925 - Vault/INFO]: [Vault] No new version available
-[13:40:46] [Craft Scheduler Thread - 15009 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[17:00:46] [Craft Scheduler Thread - 15221 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[18:20:46] [Craft Scheduler Thread - 15306 - Vault/INFO]: [Vault] Checking for Updates ... 
-[18:20:46] [Craft Scheduler Thread - 15306 - Vault/INFO]: [Vault] No new version available
-[22:40:46] [Craft Scheduler Thread - 15583 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
-[23:00:46] [Craft Scheduler Thread - 15604 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[00:00:46] [Craft Scheduler Thread - 15667 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[00:20:46] [Craft Scheduler Thread - 15689 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:20:46] [Craft Scheduler Thread - 15689 - Vault/INFO]: [Vault] No new version available
+[03:00:46] [Craft Scheduler Thread - 15859 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
