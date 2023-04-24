@@ -7,3 +7,9 @@
 [06:20:46] [Craft Scheduler Thread - 16072 - Vault/INFO]: [Vault] No new version available
 [08:20:46] [Craft Scheduler Thread - 16198 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
 [09:20:51] [Craft Scheduler Thread - 16263 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[12:20:46] [Craft Scheduler Thread - 16452 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
+[12:20:46] [Craft Scheduler Thread - 16453 - Vault/INFO]: [Vault] Checking for Updates ... 
+[12:20:46] [Craft Scheduler Thread - 16453 - Vault/INFO]: [Vault] No new version available
+[12:39:48] [Craft Scheduler Thread - 16474 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[13:00:46] [Craft Scheduler Thread - 16497 - SuperVanish/WARN]: [SuperVanish] Failed to check for an update: api.spigotmc.org
